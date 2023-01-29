@@ -8,6 +8,9 @@ The model is trained on a set of proposed bills in the Minnesota Legislature fro
 NLP model is using the T5 model from Google, imported from [Huggingface](https://huggingface.co/), fine-tuned on legislative language from documents obtained from the [MN Revisor's Office](https://www.revisor.mn.gov/). Front-end built using [Dash by Plotly](https://dash.plotly.com/). API is in Python.
 
 ## How to use
+- Clone this repository.
+- Download this google drive folder containing trained model parameters and place in repository root: https://drive.google.com/drive/folders/12s68kMjyljFiOUbFrET-qAL5ylomzC2_?usp=share_link
+- pipenv shell
 
 
 ## Authors
