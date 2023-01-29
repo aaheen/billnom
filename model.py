@@ -12,6 +12,3 @@ class SummaryModel():
     def summarize(self, text):
         summary = self.model(text)
 
-if __name__ == "__main__":
-    main()
-        
