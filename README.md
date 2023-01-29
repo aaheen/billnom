@@ -2,13 +2,13 @@
 > Legislation summarization tool for the Minnesota State Legislature
 
 ## Structure
-NLP model is using `<MODEL>` from [Huggingface](https://huggingface.co/), fine-tuned on legislative language from documents obtained from the [MN Revisor's Office](https://www.revisor.mn.gov/). Front-end built using [Dash by Plotly](https://dash.plotly.com/). API is in Python.
+NLP model is using the T5 model from Google, imported from [Huggingface](https://huggingface.co/), fine-tuned on legislative language from documents obtained from the [MN Revisor's Office](https://www.revisor.mn.gov/). Front-end built using [Dash by Plotly](https://dash.plotly.com/). API is in Python.
 
 ## Authors
-- [Aaron Mead (ronofays)](https://github.com/ronofays) - NLP
-- [Erik Heen (eaheen)](https://heen.dev/) - API & front end
 - [Andrew Amakye Ansah (aikenfell)](https://github.com/aikenfell) - Data mining & web scraping
-- [Ling Long (tardism)](https://github.com/tardism) - API & front end
+- [Erik Heen (eaheen)](https://heen.dev/) - API, front end
+- [Ling Long (tardism)](https://github.com/tardism) - API, front end, Android app
+- [Aaron Mead (ronofays)](https://github.com/ronofays) - NLP, API
 
 ## References
 
