@@ -1,0 +1,73 @@
+<html lang="{{ request.LANGUAGE_CODE }}">
+
+{% block header %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description"
+    content="Legislation Summarizer">
+  <title>Legisumm - Billnom</title>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5878159516008490"
+  crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2M3M6RL676"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2M3M6RL676');
+  </script>
+
+  <!-- Bootstrap core CSS -->
+  <script src="//unpkg.com/alpinejs" defer></script>
+  <script src="https://unpkg.com/htmx.org@1.7.0" integrity="sha384-EzBXYPt0/T6gxNp0nuPtLkmRpmDBbjg6WmCUZRLXBBwYYmwAUxzlSGej0ARHX0Bo" crossorigin="anonymous" defer></script>  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  
+
+
+</head>
+{% endblock %}
+
+<body>
+<h1>Bill Nom</h1>
+<div><p>The Legalese Summarizer</p></div>
+<br>
+<div>
+
+    <form>
+
+        <button hx-get="{{ request.scheme }}://{{ request.get_host }}/en/data"
+        hx-target="#bill-summary"
+        hx-include="[name='E0']"
+        hx-swap="outerHTML"
+        >Click Here To Return Bill Summary
+    </button>
+
+        <input type="text" x-model="E0" name="E0" placeholder="Place bill url here">
+
+      </button>
+
+
+    
+    </form>
+    <br>
+    "URL should be from the MN Revisor's Office (www.revisor.mn.gov)"
+    <div id="bill-summary">
+
+    </div>
+</div>
+<br>
+
+
+
+</div>
+</body>
+
+</html>
