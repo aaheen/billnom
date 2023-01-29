@@ -1,0 +1,10 @@
+<!-- Web service API information: www.revisor.mn.gov/bills/service.php -->
+<SEARCH_RESULTS>
+        <BILL_RESULT>
+            <FILE_TYPE>HF</FILE_TYPE>
+            <FILE_NUMBER>244</FILE_NUMBER>
+            <STATUS_XML_URI>www.revisor.mn.gov/bills/bill.php?b=House&amp;f=HF0244&amp;ssn=0&amp;y=2023&amp;format=xml</STATUS_XML_URI>
+            <LATEST_TEXT_HTML_URI>www.revisor.mn.gov/bills/text.php?number=HF0244&amp;session=ls93&amp;version=list&amp;session_number=0&amp;session_year=2023</LATEST_TEXT_HTML_URI>
+            <DESCRIPTION>Uniform Electronic Wills Act adopted; and technical, clarifying, and conforming changes made.</DESCRIPTION>
+        </BILL_RESULT>        
+</SEARCH_RESULTS>
