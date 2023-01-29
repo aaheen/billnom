@@ -2,7 +2,7 @@
 > Legislation summarization tool for the Minnesota State Legislature
 
 ## Structure
-NLP model is [Nano-GPT](https://github.com/karpathy/nanoGPT), fine-tuned on legislative language from documents obtained from the [MN Revisor's Office](https://www.revisor.mn.gov/). Front-end built using [Dash by Plotly](https://dash.plotly.com/). API is in Python.
+NLP model is using [Huggingface](https://huggingface.co/), fine-tuned on legislative language from documents obtained from the [MN Revisor's Office](https://www.revisor.mn.gov/). Front-end built using [Dash by Plotly](https://dash.plotly.com/). API is in Python.
 
 ## Authors
 - [Aaron Mead (ronofays)](https://github.com/ronofays) - NLP
@@ -16,6 +16,7 @@ NLP model is [Nano-GPT](https://github.com/karpathy/nanoGPT), fine-tuned on legi
 - https://github.com/karpathy/nanoGPT
 - https://arxiv.org/pdf/1706.03762.pdf
 - https://dash.plotly.com/
+- https://huggingface.co/
 
 ### Data Sources
 - https://www.revisor.mn.gov/
