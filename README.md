@@ -11,7 +11,7 @@ NLP model is using the T5 model from Google, imported from [Huggingface](https:/
 - Clone this repository.
 - Download this google drive folder containing trained model parameters and place in repository root: https://drive.google.com/drive/folders/12s68kMjyljFiOUbFrET-qAL5ylomzC2_?usp=share_link
 - pipenv shell
-
+- python manage.py runserver
 
 ## Authors
 - [Andrew Amakye Ansah (aikenfell)](https://github.com/aikenfell) - Data mining & web scraping
