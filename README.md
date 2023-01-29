@@ -7,7 +7,7 @@ NLP model is [Nano-GPT](https://github.com/karpathy/nanoGPT), fine-tuned on legi
 ## Authors
 - [Aaron Mead (ronofays)](https://github.com/ronofays) - NLP
 - [Erik Heen (eaheen)](https://heen.dev/) - Dash
-- [Andrew (aikenfell)](https://github.com/aikenfell) - Data mining & web scraping
+- [Andrew Amakye Ansah (aikenfell)](https://github.com/aikenfell) - Data mining & web scraping
 - [Ling Long (tardism)](https://github.com/tardism) - API structure
 
 ## References
