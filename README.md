@@ -14,7 +14,7 @@ NLP model is using the T5 model from Google, imported from [Huggingface](https:/
 - python manage.py runserver
 
 ## Authors
-- [Andrew Amakye Ansah (aikenfell)](https://github.com/aikenfell) - Data mining & web scraping
+- [Eike Aikenfell (aikenfell)](https://github.com/aikenfell) - Data mining & web scraping
 - [Erik Heen (eaheen)](https://heen.dev/) - API, front end
 - [Ling Long (tardism)](https://github.com/tardism) - API, front end, Android app
 - [Aaron Mead (ronofays)](https://github.com/ronofays) - NLP, API
