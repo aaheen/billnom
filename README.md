@@ -7,7 +7,7 @@ NLP model is using `<MODEL>` from [Huggingface](https://huggingface.co/), fine-t
 ## Authors
 - [Aaron Mead (ronofays)](https://github.com/ronofays) - NLP
 - [Erik Heen (eaheen)](https://heen.dev/) - API & front end
-- [Andrew Amakye Ansah (aikenfell)](https://github.com/aikenfell) - Data mining & web scraping
+- [Eike Aikenfell (aikenfell)](https://github.com/aikenfell) - Data mining & web scraping
 - [Ling Long (tardism)](https://github.com/tardism) - API & front end
 
 ## References
